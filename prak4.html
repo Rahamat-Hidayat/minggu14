@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Hapus Elemen HTML</title>
+    </head>
+    <body>
+        <div id="mydiv">
+            <p id="p1">Kylian Mbappe telah memutuskan masa depannya untuk tetap bertahan di PSG musim depan. <br>
+                Striker berusia 23 tahun tersebut telah menandatangani kontrak yang mengikatnya hingga 2025 mendatang.</p>
+
+            <p id="p2">Beredar kabar, Mbappe mendapat perlakuan yang sangat istimewa dalam kontrak barunya tersebut. <br>
+                Selain gaji dan bonus yang tentunya selangit, Mbappe juga dikabarkan mendapat peran penting sebagai direktur klub.</p>
+        </div>
+        <script>
+            var parent = document.getElementById("mydiv");
+            var child = document.getElementById("p2");
+            parent.removeChild(child);
+        </script>
+    </body>
+</html>
+
+ 
